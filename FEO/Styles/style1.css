@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('FEO/Images/U4.jpg') no-repeat;
+    background: url('/workspaces/ProjectBella/FEO/Images/U4.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
