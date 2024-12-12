@@ -8,7 +8,8 @@
 <body>
     <div class="container">
     <div class="item"></div>
-
+       <div class="contact"></div>
+       <div class="submit-form"></div>
     </div>
 </body>
 </html>
