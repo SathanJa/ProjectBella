@@ -24,11 +24,11 @@
             </div>
             <div class="remeber-forgot">
                 <label><input type="checkbox" >Remember me</label>
-                <a href="Reset password.html">Forgot password</a>
+                <a href="Reset password.php">Forgot password</a>
             </div>
-            <button type="submit" class="btn"><a href="Front.html">Login</a></button>
+            <button type="submit" class="btn"><a href="Front.php">Login</a></button>
             <div class="register-link">
-                <p>Dont have an account? <a href="create Account.html">Create Account</a></p>
+                <p>Dont have an account? <a href="create Account.php">Create Account</a></p>
             </div>
         </form>
     </div>
