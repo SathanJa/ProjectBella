@@ -1,9 +1,9 @@
 
 <?php
 	require_once 'dbconf.php';
-	function AddData($connect,$email,$Firstname,$Lastname,$password){
+	function AddData($connect,$email,$Firstname,$Lastname,$Password){
 		try {
-            $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+            $hashed_password = password_hash($Password, PASSWORD_DEFAULT);
 			$sql = "INSERT INTO user VALUES('$email','$Firstname','$Lastname','$hashed_password')";
 			$result = mysqli_query($connect,$sql);
 			if ($result) {
@@ -19,13 +19,12 @@
 	}
 	
 	if ($_SERVER['REQUEST_METHOD'] == "POST") {
-		$fname=$_POST['fname'];
-        $lname=$_POST['lname'];
-        $phone=$_POST['phone'];
-        $email=$_POST['email'];
-        $password=$_POST['password'];
+		$email=$_POST['email'];
+        $Firstname=$_POST['Firstname'];
+        $Lastname=$_POST['Lastname'];
+        $Password=$_POST['Password'];
 
-		AddData($connect,$fname,$lname,$phone,$email,$password);
+		AddData($connect,$email,$Firstname,$Lastname,$Password);
 	}
 
 	?>
