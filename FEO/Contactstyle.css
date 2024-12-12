@@ -29,8 +29,12 @@ body{
     box-shadow: 0 0 20px 10px rgba(0,0,0,.4);
     overflow:hidden;
     grid-template-columns: repeat(2, 1fr);
-    display: grid;
+    display:grid;
+    z-index: 1000;
 }
 .contact{
-
+   background: black;
+}
+.submit-form{
+  background: #e0349e;
 }
