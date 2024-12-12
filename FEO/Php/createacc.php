@@ -11,7 +11,7 @@
 			} else {
 				die("Error ".mysqli_error($connect));
 			}
-            header('Location: ../index.html');
+            header('Location: ../Front.html');
             exit;
 		} catch (Exception $e) {
 			die($e->getMessage());
