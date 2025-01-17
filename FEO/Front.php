@@ -18,7 +18,7 @@
                 <ul>
                     <li><a href="Front.php"><button type="button" class="btn btn-primary">HOME</button></a></li>
                     <li><a href="About.php"><button type="button" class="btn btn-primary">ABOUT</button></a></li>
-                    <li><a href="Services.php"><button type="button" class="btn btn-primary">SERVICES</button></a></li>
+                    <li><a href="Service.php"><button type="button" class="btn btn-primary">SERVICES</button></a></li>
                     <li><a href="#"><button type="button" class="btn btn-primary">BOOKING</button></a></li>
                     <li><a href="Contact.php"><button type="button" class="btn btn-primary">CONTACT</button></a></li>
                     <!-- Logout Button -->
