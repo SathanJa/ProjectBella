@@ -15,7 +15,7 @@
 
             <div class="menu">
                 <ul>
-                    <li><a href="#"><button type="button" class="btn btn-primary">HOME</button></a></li>
+                    <li><a href="Front.php"><button type="button" class="btn btn-primary">HOME</button></a></li>
                     <li><a href="#"><button type="button" class="btn btn-primary">ABOUT</button></a></li>
                     <li><a href="#"><button type="button" class="btn btn-primary">SERVICES</button></a></li>
                     <li><a href="#"><button type="button" class="btn btn-primary">BOOKING</button></a></li>
@@ -44,3 +44,15 @@
     
 </body>
 </html>
+
+<?php
+
+session_start();
+
+
+session_destroy();
+
+
+header('Location: Login.php');
+exit;
+?>

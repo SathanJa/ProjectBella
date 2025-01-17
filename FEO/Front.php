@@ -6,6 +6,8 @@
     <title>Bella Beauty Saloon</title>
     
     <link href="Frontstyle.css" rel="stylesheet">
+</head>
+<body>
     <div class="main">
         <div class="navbar">
             <div class="icon">
@@ -19,25 +21,32 @@
                     <li><a href="#"><button type="button" class="btn btn-primary">SERVICES</button></a></li>
                     <li><a href="#"><button type="button" class="btn btn-primary">BOOKING</button></a></li>
                     <li><a href="Contact.html"><button type="button" class="btn btn-primary">CONTACT</button></a></li>
-
+                    <!-- Logout Button -->
+                    <li><a href="Login.php"><button type="button" class="btn btn-primary">LOGOUT</button></a></li>
                 </ul>
-                
             </div>
-           
-
         </div> 
+        
         <div class="content">
             <h1>Bella Beauty <br><span>Salon</span></h1>
-            <p class="par">WELCOME TO BELLA BEAUTY<br>We Give Hair styling,Facials,Manicure & Pedicure,Massage Therapy and Makeup Services<br>Booking your slots & Get our valuable services</p>
-
+            <p class="par">WELCOME TO BELLA BEAUTY<br>We Give Hair Styling, Facials, Manicure & Pedicure, Massage Therapy, and Makeup Services.<br>Book your slot & Get our valuable services</p>
         </div>
     </div>
+
     <footer>
         <p>&copy; 2024 Bella Beauty. All rights reserved.</p>
     </footer>
-
-
-    
-
 </body>
 </html>
+
+<?php
+
+session_start();
+
+
+session_destroy();
+
+
+header('Location: Login.php');
+exit;
+?>
