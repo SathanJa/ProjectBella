@@ -20,7 +20,7 @@
                     <li><a href="About.php"><button type="button" class="btn btn-primary">ABOUT</button></a></li>
                     <li><a href="#"><button type="button" class="btn btn-primary">SERVICES</button></a></li>
                     <li><a href="#"><button type="button" class="btn btn-primary">BOOKING</button></a></li>
-                    <li><a href="Contact.html"><button type="button" class="btn btn-primary">CONTACT</button></a></li>
+                    <li><a href="Contact.php"><button type="button" class="btn btn-primary">CONTACT</button></a></li>
                     <!-- Logout Button -->
                     <li><a href="Login.php"><button type="button" class="btn btn-primary">LOGOUT</button></a></li>
                 </ul>
